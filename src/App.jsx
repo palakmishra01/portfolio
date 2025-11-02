@@ -143,7 +143,7 @@ export default function Portfolio() {
             <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold mb-4 bg-gradient-to-r from-purple-400 via-pink-400 to-purple-400 bg-clip-text text-transparent">
               Palak Mishra
             </h1>
-            <p className="text-xl sm:text-2xl text-purple-300 mb-2">Software Developer</p>
+            {/* <p className="text-xl sm:text-2xl text-purple-300 mb-2">B24EE1050</p> */}
             <p className="text-lg text-gray-400">Electrical Engineering @ IIT Jodhpur</p>
           </div>
           
