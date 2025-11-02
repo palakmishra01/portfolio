@@ -186,7 +186,7 @@ export default function Portfolio() {
             <div className="bg-slate-900/50 backdrop-blur-sm rounded-xl p-6 sm:p-8 border border-purple-500/20 hover:border-purple-500/40 transition-all">
               <h3 className="text-2xl font-bold mb-4 text-purple-400">Background</h3>
               <p className="text-gray-300 leading-relaxed mb-4">
-                Currently pursuing B.Tech in Electrical Engineering at IIT Jodhpur with a CGPA of 7.79. 
+                I am a second year student, currently pursuing B.Tech in Electrical Engineering at IIT Jodhpur with a CGPA of 7.79. 
                 My journey into software development stems from a deep fascination with cryptography, 
                 algorithms, and building systems that matter.
               </p>
