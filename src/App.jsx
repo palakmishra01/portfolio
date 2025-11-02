@@ -36,38 +36,39 @@ export default function Portfolio() {
       title: "MailQ - Quantum Secure Email",
       description: "First-of-its-kind quantum-secure framework integrating Post-Quantum Cryptography (Kyber), AES encryption, and QKD simulator for future-proof email protection.",
       tech: ["C++", "Quantum Cryptography", "AES", "Kyber"],
-      github: "https://github.com",
+      github: "https://github.com/palakmishra01/Quant_Crypt_SIH",
       highlights: ["Multi-layered security", "User-friendly Security Dial", "Modular architecture"]
     },
     {
       title: "Version Controlled Notes",
       description: "CLI-based note-taking app with built-in version control featuring commit, diff, and restore capabilities with AES encryption for data security.",
       tech: ["C++", "AES Encryption", "CLI"],
-      github: "https://github.com",
+      github: "https://github.com/palakmishra01/DSA-project-repo",
       highlights: ["Lightweight versioning", "Linked-list based diffs", "No external VCS needed"]
     },
     {
       title: "MONEFY",
       description: "Financial tracking system with real-time multi-currency conversion, automated analytics, and persistent CSV storage for comprehensive expense management.",
       tech: ["C++17", "REST API", "JSON"],
-      github: "https://github.com",
+      github: "https://github.com/palakmishra01/MONEFY",
       highlights: ["ExchangeRate API", "Automated reports", "Modular design"]
     },
     {
       title: "PHEME Club Website",
       description: "Official web presence for PHEME club with dynamic pages for events, newsletters, and communication.",
       tech: ["React", "HTML", "CSS", "JavaScript"],
-      github: "https://github.com",
-      website: "https://pheme.com",
+      github: "https://github.com/palakmishra01/Pheme-IITJ",
+      website: "https://pheme-iitj.vercel.app/",
       highlights: ["Dynamic content", "Enhanced UX", "Resource sharing"]
     }
   ];
 
   const achievements = [
-    { icon: "🏆", text: "220+ LeetCode Problems | 120+ day streak", highlight: "Peak Rating: 1530" },
+    { icon: "🏆", text: "220+ LeetCode Problems", highlight: " 120+ daily streak" },
+    { icon: "💻", text: "Strong DSA Foundation", highlight: "Peak Rating: 1530 - LeetCode" },
     { icon: "🎯", text: "Top 8% Nationwide", highlight: "AlgoUniversity Tech Fellowship" },
-    { icon: "📊", text: "Top 0.25% JEE Mains", highlight: "Top 3% JEE Advanced 2024" },
-    { icon: "💻", text: "Strong DSA Foundation", highlight: "Daily Problem Solving" }
+    { icon: "📊", text: "Top 0.25% JEE Mains", highlight: "Top 3% JEE Advanced 2024" }
+    
   ];
 
   const skills = {
@@ -151,15 +152,15 @@ export default function Portfolio() {
           </p>
 
           <div className="flex flex-wrap justify-center gap-4 mb-12">
-            <a href="https://github.com" target="_blank" rel="noopener noreferrer" 
+            <a href="https://github.com/palakmishra01" target="_blank" rel="noopener noreferrer" 
                className="flex items-center gap-2 px-6 py-3 bg-purple-600 hover:bg-purple-700 rounded-lg transition-all hover:scale-105">
               <Github size={20} /> GitHub
             </a>
-            <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer"
+            <a href="https://www.linkedin.com/in/palak-mishra-6253a3328/" target="_blank" rel="noopener noreferrer"
                className="flex items-center gap-2 px-6 py-3 bg-purple-600 hover:bg-purple-700 rounded-lg transition-all hover:scale-105">
               <Linkedin size={20} /> LinkedIn
             </a>
-            <a href="https://leetcode.com" target="_blank" rel="noopener noreferrer"
+            <a href="https://leetcode.com/u/palakmishra0810/" target="_blank" rel="noopener noreferrer"
                className="flex items-center gap-2 px-6 py-3 bg-purple-600 hover:bg-purple-700 rounded-lg transition-all hover:scale-105">
               <Code2 size={20} /> LeetCode
             </a>
@@ -177,7 +178,7 @@ export default function Portfolio() {
       {/* About Section */}
       <section id="about" className="py-20 px-4 relative">
         <div className="max-w-6xl mx-auto">
-          <h2 className="text-4xl sm:text-5xl font-bold mb-12 text-center bg-gradient-to-r from-purple-400 to-pink-400 bg-clip-text text-transparent">
+          <h2 className="text-4xl sm:text-5xl font-bold mb-12 text-center bg-gradient-to-r from-purple-400 to-pink-400 bg-clip-text text-transparent pb-2">
             About Me
           </h2>
           
@@ -241,7 +242,7 @@ export default function Portfolio() {
       {/* Projects Section */}
       <section id="projects" className="py-20 px-4 relative">
         <div className="max-w-6xl mx-auto">
-          <h2 className="text-4xl sm:text-5xl font-bold mb-12 text-center bg-gradient-to-r from-purple-400 to-pink-400 bg-clip-text text-transparent">
+          <h2 className="text-4xl sm:text-5xl font-bold mb-12 text-center bg-gradient-to-r from-purple-400 to-pink-400 bg-clip-text text-transparent pb-2">
             Featured Projects
           </h2>
           
@@ -301,7 +302,7 @@ export default function Portfolio() {
       {/* Achievements Section */}
       <section id="achievements" className="py-20 px-4 relative">
         <div className="max-w-6xl mx-auto">
-          <h2 className="text-4xl sm:text-5xl font-bold mb-12 text-center bg-gradient-to-r from-purple-400 to-pink-400 bg-clip-text text-transparent">
+          <h2 className="text-4xl sm:text-5xl font-bold mb-12 text-center bg-gradient-to-r from-purple-400 to-pink-400 bg-clip-text text-transparent pb-2">
             Achievements
           </h2>
           
@@ -351,7 +352,7 @@ export default function Portfolio() {
       {/* Contact Section */}
       <section id="contact" className="py-20 px-4 relative">
         <div className="max-w-4xl mx-auto text-center">
-          <h2 className="text-4xl sm:text-5xl font-bold mb-8 bg-gradient-to-r from-purple-400 to-pink-400 bg-clip-text text-transparent">
+          <h2 className="text-4xl sm:text-5xl font-bold mb-8 bg-gradient-to-r from-purple-400 to-pink-400 bg-clip-text text-transparent pb-2">
             Get In Touch
           </h2>
           
@@ -372,15 +373,15 @@ export default function Portfolio() {
           </div>
 
           <div className="flex justify-center gap-6">
-            <a href="https://github.com" target="_blank" rel="noopener noreferrer"
+            <a href="https://github.com/palakmishra01" target="_blank" rel="noopener noreferrer"
                className="text-gray-400 hover:text-purple-400 transition-colors hover:scale-110 transform">
               <Github size={28} />
             </a>
-            <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer"
+            <a href="https://www.linkedin.com/in/palak-mishra-6253a3328/" target="_blank" rel="noopener noreferrer"
                className="text-gray-400 hover:text-purple-400 transition-colors hover:scale-110 transform">
               <Linkedin size={28} />
             </a>
-            <a href="https://leetcode.com" target="_blank" rel="noopener noreferrer"
+            <a href="https://leetcode.com/u/palakmishra0810/" target="_blank" rel="noopener noreferrer"
                className="text-gray-400 hover:text-purple-400 transition-colors hover:scale-110 transform">
               <Code2 size={28} />
             </a>
@@ -388,13 +389,13 @@ export default function Portfolio() {
         </div>
       </section>
 
-      {/* Footer */}
+      {/* Footer
       <footer className="py-8 px-4 border-t border-purple-500/20 bg-slate-950/50 backdrop-blur-sm">
         <div className="max-w-6xl mx-auto text-center text-gray-400">
           <p className="mb-2">Built with React & Tailwind CSS</p>
           <p>© 2024 Palak Mishra. All rights reserved.</p>
         </div>
-      </footer>
+      </footer> */}
     </div>
   );
 }
