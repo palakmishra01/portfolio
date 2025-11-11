@@ -64,7 +64,7 @@ export default function Portfolio() {
   ];
 
   const achievements = [
-    { icon: "🏆", text: "220+ LeetCode Problems", highlight: " 120+ daily streak" },
+    { icon: "🏆", text: "250+ LeetCode Problems", highlight: " 120+ daily streak" },
     { icon: "💻", text: "Strong DSA Foundation", highlight: "Peak Rating: 1530 - LeetCode" },
     { icon: "🎯", text: "Top 8% Nationwide", highlight: "AlgoUniversity Tech Fellowship" },
     { icon: "📊", text: "Top 0.25% JEE Mains", highlight: "Top 3% JEE Advanced 2024" }
